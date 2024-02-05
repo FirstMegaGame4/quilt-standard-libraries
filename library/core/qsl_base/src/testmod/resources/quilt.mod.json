@@ -19,5 +19,8 @@
       "quilt_loader",
       "quilt_base"
     ]
-  }
+  },
+  "mixin": [
+    "quilt_base_testmod.mixins.json"
+  ]
 }

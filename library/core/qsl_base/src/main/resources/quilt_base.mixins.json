@@ -5,6 +5,7 @@
   "mixins": [
     "BootstrapAccessor",
     "MinecraftServerMixin",
+    "ObjectMixin",
     "RegistriesMixin"
   ],
   "client": [

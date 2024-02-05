@@ -27,14 +27,18 @@ import org.quiltmc.qsl.base.test.event.EventListenAllTests;
 import org.quiltmc.qsl.base.test.event.EventTests;
 
 public final class QuiltBaseTestMod implements ModInitializer {
-	private static final Logger LOGGER = LoggerFactory.getLogger(QuiltBaseTestMod.class);
+	public static final Logger LOGGER = LoggerFactory.getLogger(QuiltBaseTestMod.class);
 
 	@Override
 	public void onInitialize(ModContainer mod) {
-		List.of(new EventTests(), new EventListenAllTests())
+		List.of(QuiltBaseTestMod.eventTests(new EventTests()), new EventListenAllTests())
 				.forEach(test -> {
 					LOGGER.info("Testing " + test.getClass().getSimpleName() + "...");
 					test.run();
 				});
+	}
+
+	private static EventTests eventTests(EventTests tests) {
+		return tests;
 	}
 }
