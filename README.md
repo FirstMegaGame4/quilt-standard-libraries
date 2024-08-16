@@ -133,7 +133,7 @@ Quick legend:
 | Data Generation                                                       |                                 :construction:                                 |         ✔         |
 | Loot Table API                                                        |                                       ❌                                        |         ✔         |
 | Resource Conditions                                                   |                                       ❌                                        |         ✔         |
-| Component API (like CCA or Forge capabilities)                        | [:construction:](https://github.com/QuiltMC/quilt-standard-libraries/pull/146) |         ❌         |
+| Component API (like CCA or Forge capabilities)                        | [:construction:](https://github.com/QuiltMC/quilt-standard-libraries/pull/146) | ✔ (with Data Attachment API) |
 
 ### Entity Library
 
