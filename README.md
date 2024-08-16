@@ -37,12 +37,13 @@ Quick legend:
 
 ### Core Library
 
-| Feature                           | QSL |  Fabric API   |
-|:----------------------------------|:---:|:-------------:|
-| Auto Test Server argument         |  ✔  |       ❌       |
+| Feature                           | QSL |   Fabric API   |
+|:----------------------------------|:---:|:--------------:|
+| Auto Test Server argument         |  ✔  |       ❌      |
+| Data callback API                 |  ✔  |       ✔       |
 | Event API                         |  ✔  |       ✔       |
 | Event API - Phases                |  ✔  |       ✔       |
-| Event API - Events as Entrypoints |  ✔  |       ❌       |
+| Event API - Events as Entrypoints |  ✔  |       ❌      |
 | Gametest API                      |  ✔  |       ✔       |
 | Initializer Entrypoints           |  ✔  | ✔ (in loader) |
 | Networking API                    |  ✔  |       ✔       |
@@ -51,8 +52,8 @@ Quick legend:
 
 | Feature                        | QSL | Fabric API |
 |:-------------------------------|:---:|:----------:|
-| Crash report extra context     |  ✔  |     ✔      |
-| Crash report extra context API |  ✔  |     ❌      |
+| Crash report extra context     |  ✔  |     ✔     |
+| Crash report extra context API |  ✔  |     ❌    |
 
 ### Core - Lifecycle Events
 
@@ -61,24 +62,31 @@ Quick legend:
 | Client Lifecycle Events    |  ✔  |     ✔      |
 | Client Tick Events         |  ✔  |     ✔      |
 | Client World Tick Events   |  ✔  |     ✔      |
-| Client Block Entity Events |  ❌  |     ✔      |
-| Client Chunk Events        |  ❌  |     ✔      |
-| Common Lifecycle Events    |  ❌  |     ✔      |
+| Client Block Entity Events |  ❌ |     ✔      |
+| Client Chunk Events        |  ❌ |     ✔      |
+| Client Entity Events       |  ❌ |     ✔      |
+| Common Lifecycle Events    |  ❌ |     ✔      |
 | Server Lifecycle Events    |  ✔  |     ✔      |
 | Server Tick Events         |  ✔  |     ✔      |
 | Server World Load Events   |  ✔  |     ✔      |
 | Server World Tick Events   |  ✔  |     ✔      |
-| Server Block Entity Events |  ❌  |     ✔      |
-| Server Chunk Events        |  ❌  |     ✔      |
+| Server Block Entity Events |  ❌ |     ✔      |
+| Server Chunk Events        |  ❌ |     ✔      |
+| Server Entity Events       |  ❌ |     ✔      |
 
 ### Core - Registry
 
 | Feature                                     | QSL | Fabric API |
 |:--------------------------------------------|:---:|:----------:|
-| Addition Events                             |  ✔  |     ✔      |
-| Addition Events Helper                      |  ✔  |     ❌      |
-| Registry Syncing                            |  ✔  |     ✔      |
-| Registry Syncing - Exclude Specific Entries |  ✔  |     ❌      |
+| Addition Events                             |  ✔  |     ✔     |
+| Addition Events Helper                      |  ✔  |     ❌    |
+| Dynamic Registry Setup Event                |  ✔  |     ✔     |
+| Dynamic Registry Loaded Event               |  ✔  |     ❌    |
+| Synced Dynamic Registry Registration        |  ✔  |     ✔     |
+| Unsynced Dynamic Registry Registration      |  ✔  |     ✔     |
+| Dynamic Registry Flags                      |  ✔  |     ❌    |
+| Registry Syncing                            |  ✔  |     ✔     |
+| Registry Syncing - Exclude Specific Entries |  ✔  |     ❌    |
 
 ### Core - Resource Loader
 
