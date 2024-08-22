@@ -146,7 +146,7 @@ Quick legend:
 | Data Generation                                                       |                                       ❌                                       |               ✔              |
 | Loot Table API                                                        |                                       ❌                                       |               ✔              |
 | Resource Conditions                                                   |                                       ❌                                       |               ✔              |
-| Component API (like CCA or Forge capabilities)                        |       [⏳](https://github.com/QuiltMC/quilt-standard-libraries/pull/146)       | ✔ (with Data Attachment API) |
+| Component API (like CCA or Forge capabilities)                        |                                       ❌                                       | ✔ (with Data Attachment API) |
 | Static Resources API                                                  |       [🚧](https://github.com/QuiltMC/quilt-standard-libraries/pull/321)       |               ❌             |
 
 ### Entity Library
